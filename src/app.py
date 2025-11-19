@@ -1,1 +1,5 @@
-def greet(name):\n    return f"Hello {name}!"\n\nif __name__ == "__main__":\n    print(greet("DevOps Engineer"))
+def greet(name):
+    return f"Hello {name}!"
+
+if __name__ == "__main__":
+    print(greet("DevOps Engineer"))
