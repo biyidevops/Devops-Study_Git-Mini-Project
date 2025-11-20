@@ -1,3 +1,7 @@
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
 def greet(name):
     return f"Hello {name}!"
 
