@@ -2,6 +2,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+
 def greet(name):
     message = f"Hello {name}!"
     logging.info(f"Greeting generated: {message}")
